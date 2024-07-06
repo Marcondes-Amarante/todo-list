@@ -1,0 +1,19 @@
+{
+  "tarefas": [
+    {
+      "titulo": "Atualizar git",
+      "descricao": "Adicionar novos projetos ao meu portifólio hospedado no github",
+      "id": 1
+    },
+    {
+      "titulo": "Aprender git",
+      "descricao": "Aprender principais funções para manipulação e versionamento de código disponibilizadas pelo git",
+      "id": 2
+    },
+    {
+      "titulo": "concluir conteúdo do geração tech",
+      "descricao": "concluir estudo do conteúdo e atividades disponibilizadas pelo curso fullstack web do geração tech\n",
+      "id": 3
+    }
+  ]
+}

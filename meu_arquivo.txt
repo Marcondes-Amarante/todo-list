@@ -1,0 +1,1 @@
+projeto hospedado em repositório remoto do github a partir das instruções disponibilizadas pelo curso fullstack web do geração tech
