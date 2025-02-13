@@ -10,7 +10,7 @@ function desativarModal(){
 }
 
 function buscarTarefas(){
-    fetch('http://localhost:3000/tarefas')
+    fetch('https://todo-list-xsra.onrender.com')
     .then((res) => res.json())
     .then((res) => {
         inserirTarefas(res);
@@ -46,7 +46,7 @@ function adicionarTarefa(){
         descricao: descricao
     }
 
-    fetch("http://localhost:3000/tarefas", {
+    fetch("https://todo-list-xsra.onrender.com", {
         method: "POST",
         headers: {"Content-type":"application/json"},
         body: JSON.stringify(tarefa)
@@ -61,7 +61,7 @@ function adicionarTarefa(){
 
 function removerTarefa(id){
     event.preventDefault();
-    fetch(`http://localhost:3000/tarefas/${id}`, {
+    fetch(`https://todo-list-xsra.onrender.com${id}`, {
         method: "DELETE",
     })
 
