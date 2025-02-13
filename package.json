@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "api": "npx json-server api.json --watch --port 3000"
+    "start": "json-server --watch db.json --port 3000 --host 0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
